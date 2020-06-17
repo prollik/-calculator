@@ -1,20 +1,31 @@
 @font-face {
-    font-family: myriadpro-bold; /* Имя шрифта */
+    font-family: 'myriadproregular';
+    src: url('../fonts/myriadpro-regular/myriadproregular.eot');
+    src: url('../fonts/myriadpro-regular/myriadproregular.eot') format('embedded-opentype'),
+    url('../fonts/myriadpro-regular/myriadproregular.woff2') format('woff2'),
+    url('../fonts/myriadpro-regular/myriadproregular.woff') format('woff'),
+    url('../fonts/myriadpro-regular/myriadproregular.ttf') format('truetype'),
+    url('../fonts/myriadpro-regular/myriadproregular.svg#myriadproregular') format('svg');
+}
+
+
+@font-face {
+    font-family: myriadpro-bold;
     src: url(../fonts/myriadpro-bold.ttf);
 }
 
 @font-face {
-    font-family: myriadpro-regular; /* Имя шрифта */
+    font-family: myriadpro-regular;
     src: url(../fonts/myriadpro-regular.ttf);
 }
 
 @font-face {
-    font-family: myriadpro-semibold; /* Имя шрифта */
+    font-family: myriadpro-semibold;
     src: url(../fonts/myriadpro-semibold.ttf);
 }
 
 @font-face {
-    font-family: myriadpro-semiboldit; /* Имя шрифта */
+    font-family: myriadpro-semiboldit;
     src: url(../fonts/myriadpro-semiboldit.ttf);
 }
 

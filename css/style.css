@@ -24,7 +24,7 @@ input, button{
 }
 
 body{
-    font-family: 'myriadpro-regular';
+    font-family: 'myriadproregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -45,7 +45,7 @@ header{
 
 .header li>a {
     font-size: 40px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: #767676;
     line-height: 1.15;
     letter-spacing: 0.025px;
@@ -72,7 +72,7 @@ header{
 .modal__title{
     text-align: center;
     font-size: 24px;
-    font-family: "myriadpro-semibold";
+    font-family: "myriadpro-semibold", sans-serif;
     color: rgb(157, 163, 215);
     margin-bottom: 19px;
     letter-spacing: 0.025em;
@@ -86,7 +86,7 @@ header{
 .modal__inner-title{
     text-align: center;
     font-size: 24px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.2;
 }
@@ -102,7 +102,7 @@ form>input{
     padding-left: 18px;
     margin-top: 18px;
     font-size: 24px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: rgb(118, 118, 118);
     letter-spacing: 0.025em;
 }
@@ -111,7 +111,7 @@ form>input{
 form>button {
     margin-top: 23px;
     font-size: 24px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     line-height: 1.2;
@@ -129,7 +129,7 @@ form>button:hover{
     padding: 40px 0 26px;
     text-align: center;
     font-size: 24px;
-    font-family: "myriadpro-semibold";
+    font-family: "myriadpro-semibold", sans-serif;
     color: rgb(157, 163, 215);
     text-transform: uppercase;
     line-height: 1.2;
@@ -215,7 +215,7 @@ form>button:hover{
     padding-bottom: 40px;
     text-align: center;
     font-size: 24px;
-    font-family: "myriadpro-semibold";
+    font-family: "myriadpro-semibold", sans-serif;
     color: rgb(0, 0, 0);
     line-height: 1.2;
     letter-spacing: 0.025em;
@@ -223,7 +223,7 @@ form>button:hover{
 
 .text__content{
     font-size: 14px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: rgb(0, 0, 0);
     line-height: 1.2;
     letter-spacing: 0.025px;
@@ -236,7 +236,7 @@ form>button:hover{
 
 .calculator__title{
     font-size: 24px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: rgb(157, 163, 215);
     text-transform: uppercase;
     line-height: 1.2;
@@ -263,7 +263,7 @@ form>button:hover{
     text-align: center;
     display: block;
     font-size: 14px;
-    font-family: "myriadpro-bold";
+    font-family: "myriadpro-bold", sans-serif;
     color: rgb(0, 0, 0);
     letter-spacing: 0.025em;
 }
@@ -310,7 +310,7 @@ form>button:hover{
 
 .calculator__height-title>span {
     transform: scale(-1, -1);
-    font-family: "myriadpro-semiboldit";
+    font-family: "myriadpro-semiboldit", sans-serif;
     font-size: 22px;
     color: black;
     writing-mode: vertical-rl;
@@ -325,7 +325,7 @@ form>button:hover{
 }
 
 .calculator__width-title{
-    font-family: "myriadpro-semiboldit";
+    font-family: "myriadpro-semiboldit", sans-serif;
     font-size: 22px;
     color: black;
     text-align: center;
@@ -354,7 +354,7 @@ form>button:hover{
 
 .calculator__input-box label{
     font-size: 22px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: rgb(0, 0, 0);
     line-height: 1.818;
     text-align: center;
@@ -369,7 +369,7 @@ form>button:hover{
     padding: 10px 0;
     text-align: center;
     font-size: 35.62px;
-    font-family: "myriadpro-regular";
+    font-family: "myriadpro-regular", sans-serif;
     color: black;
 }
 
@@ -379,7 +379,7 @@ form>button:hover{
     left: 50%;
     transform: translate(-50%, -85%);
     font-size: 48px;
-    font-family: "myriadpro-bold";
+    font-family: "myriadpro-bold", sans-serif;
     color: rgb(0, 153, 222);
     font-weight: bold;
     line-height: 0.833;
@@ -396,7 +396,7 @@ form>button:hover{
 .calculator__right-title{
     font-size: 30px;
     letter-spacing: 0.25px;
-    font-family: "myriadpro-bold";
+    font-family: "myriadpro-bold", sans-serif;
     color: rgb(0, 153, 222);
 }
 
@@ -406,7 +406,7 @@ form>button:hover{
 
 .calculator__item-title{
     font-size: 24px;
-    font-family: "myriadpro-semibold";
+    font-family: "myriadpro-semibold", sans-serif;
     color: rgb(0, 0, 0);
 }
 
@@ -435,17 +435,17 @@ form>button:hover{
 
 .calculator__item-radio label{
     font-size: 18px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: rgb(0, 0, 0);
     vertical-align: middle;
 }
 
 .calculator__item-radio label{
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
 }
 
 .calculator__item-radio select{
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
 }
 
 .calculator__select{
@@ -461,7 +461,7 @@ form>button:hover{
 
 .jq-selectbox__select-text{
     font-size: 18px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: #262626;
     padding-top: 12px;
 }
@@ -532,7 +532,7 @@ form>button:hover{
     background-color: #c6c6c6;
     color: black;
     font-size: 18px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     letter-spacing: 0.25px;
 }
 
@@ -540,7 +540,7 @@ form>button:hover{
     width: 280px;
     height: 46px;
     border: none;
-    font-family: "myriadpro-bold";
+    font-family: "myriadpro-bold", sans-serif;
     font-size: 20px;
     background-color: #9da3d7;
     color: white;
@@ -554,7 +554,7 @@ footer{
 .footer__content{
     padding: 57px 0 50px;
     font-size: 24px;
-    font-family: "myriadpro-regular";
+    font-family: 'myriadproregular', sans-serif;
     color: rgb(255, 254, 254);
     line-height: 1.2;
     letter-spacing: 0.25px;
