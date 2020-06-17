@@ -454,6 +454,7 @@ form>button:hover{
 }
 
 .jq-selectbox{
+    max-width: 358px;
     width: 100%;
     margin-top: 24px;
 }
