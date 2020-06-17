@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <!--<link rel="stylesheet" href="css/jquery.formstyler.theme.css">-->
+
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/mobile.css" >
+
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__content">
+            <div class="header__logo">
+                <img src="img/logo.png" alt="лого">
+            </div>
+            <div class="header__tel">
+                <ul>
+                    <li><a href="tel:74997777777">+7(499) 777-77-77</a></li>
+                    <li><a href="tel:74997777777">+7(499) 777-77-77</a></li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+</header>
+
+<section class="modal">
+    <div class="container">
+        <div class="modal__content">
+            <div class="modal__inner">
+                <div class="modal__title">ФОРМА С КНОПКОЙ</div>
+                <div class="modal__item">
+                    <form id="form" action="#" method="post" onsubmit="return checkForm(this.elements)">
+                        <div class="modal__inner-title">ОСТАВЬ ТЕЛЕФОН И ПОЛУЧИ ЧТО-ТО ОФИГЕННОЕ</div>
+                        <input id="number" type="tel" name="phone" placeholder="Введите номер" pattern="(\+375|80)(29|25|44|33)(\d{3})(\d{2})(\d{2})$">
+                        <button type="submit">ПОЛУЧИТЬ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="slider">
+    <div class="container">
+        <div class="slider__title">ЗДЕСЬ БУДЕТ СЛАЙДЕР</div>
+        <div class="slider__inner">
+
+            <div class="slider__item">
+                <div class="slider__item-content">
+                    <img src="img/1.png">
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <div class="slider__item-content">
+                    <img src="img/2.png">
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <div class="slider__item-content">
+                    <img src="img/3.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="text">
+    <div class="container">
+        <div class="text__inner">
+            <div class="text__title">ПРОСТО ТЕКСТОВЫЙ БЛОК</div>
+            <div class="text__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam posuere quis arcu sit amet commodo. Nullam ac dui
+                lacus. Nulla dapibus interdum interdum. Curabitur ut diam
+                nisl. Vivamus libero lacus, viverra at dolor sit amet,
+                commodo faucibus orci. Vivamus laoreet ornare nisi, id
+                pharetra tellus ullamcorper volutpat. Sed lacinia placerat
+                accumsan. Praesent pharetra ipsum scelerisque, sodales urna
+                ut, placerat nulla. Duis nunc urna, semper non arcu ut,
+                sagittis dapibus lorem. Nunc nec urna id velit sodales
+                sodales. Sed porttitor quam eget mollis consequat.
+                Curabitur aliquet nec dui eget aliquet. Nulla in risus ante.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="calculator">
+    <div class="container">
+        <div class="calculator__inner">
+            <div class="calculator__title">Калькулятор<br>
+                (стоимость пользователь узнает по телефону)</div>
+
+            <div class="calculator__slider-nav">
+
+                <div class="slider__img-nav">
+                    <div class="slider__img-inner">
+                        <div class="slider__img-nav">
+                            <img src="img/slider1.png">
+                        </div>
+                    </div>
+                    <label>Одностворчатое</label>
+                </div>
+
+                <div class="slider__img-nav">
+                    <div class="slider__img-inner">
+                        <div class="slider__img-nav">
+                            <img src="img/slider2.png">
+                        </div>
+                    </div>
+                    <label>Двухстворчатое</label>
+                </div>
+
+                <div class="slider__img-nav">
+                    <div class="slider__img-inner">
+                        <div class="slider__img-nav">
+                            <img src="img/slider3.png">
+                        </div>
+                    </div>
+                    <label>Трехстворчатое</label>
+                </div>
+
+                <div class="slider__img-nav">
+                    <div class="slider__img-inner">
+                        <div class="slider__img-nav">
+                            <img src="img/slider4.png">
+                        </div>
+                    </div>
+                    <label>Балконный блок</label>
+                </div>
+
+                <div class="slider__img-nav">
+                    <div class="slider__img-inner">
+                        <div class="slider__img-nav">
+                            <img src="img/slider5.png">
+                        </div>
+                    </div>
+                    <label>Остекленение балкона</label>
+                </div>
+            </div>
+
+            <div class="calculator__box">
+
+                <div class="form__box">
+                    <form action="#">
+                        <div class="calculator__box-inner">
+                            <div class="calculator__left">
+                                <div class="calculator__box-height">
+                                    <div class="calculator__height-title">
+                                        <span>высота</span>
+                                    </div>
+                                </div>
+
+                                <div class="calculator__box-width">
+                                    <div class="calculator__width-title">ширина</div>
+                                    <div class="calculator__width-slider">
+                                        <div class="slider__img">
+                                            <img src="img/slider1_big.png">
+                                        </div>
+                                        <div class="slider__img">
+                                            <img src="img/slider2_big.png">
+                                        </div>
+                                        <div class="slider__img">
+                                            <img src="img/slider3_big.png">
+                                        </div>
+                                        <div class="slider__img">
+                                            <img src="img/slider4_big.png">
+                                        </div>
+                                        <div class="slider__img">
+                                            <img src="img/slider5_big.png">
+                                        </div>
+                                    </div>
+                                    <div class="calculator__width-input">
+                                        <div class="calculator__input-inner">
+                                            <div class="calculator__input-box">
+                                                <label>ширина, см
+                                                    <input type="text">
+                                                </label>
+                                            </div>
+
+                                            <div class="calculator__x">x</div>
+
+                                            <div class="calculator__input-box">
+                                                <label>высота, см
+                                                    <input type="text">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calculator__right">
+                                <div class="calculator__right-title">Одостворчатое окно КВЕ</div>
+                                <div class="calculator__right-item">
+                                    <div class="calculator__item-title">1. Критерий выбора</div>
+                                    <div class="calculator__inner-radio">
+                                        <div class="calculator__item-radio">
+                                            <input type="radio" id="i1" name = "value"><label for="i1">пункт выбора 1</label>
+                                        </div>
+                                        <div class="calculator__item-radio">
+                                            <input type="radio" id="i2" name = "value"><label for="i2">пункт выбора 2</label>
+                                        </div>
+                                        <div class="calculator__item-radio">
+                                            <input type="radio" id="i3" name = "value"><label for="i3">пункт выбора 3</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="calculator__right-item">
+                                    <div class="calculator__item-title">2. Выберите открываение ствоки</div>
+                                    <select data-placeholder = "Не открывается">
+                                        <option></option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="calculator__box-inner">
+                            <div class="calculator__button">
+                                <div class="calculator__button-item">
+                                    <input type="text" placeholder="Введите номер">
+                                </div>
+
+                                <div class="calculator__button-item">
+                                    <button type="submit">РАССЧИТАТЬ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__content">
+                просто<br>скромный футер
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

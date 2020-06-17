@@ -1,0 +1,20 @@
+@font-face {
+    font-family: myriadpro-bold; /* Имя шрифта */
+    src: url(../fonts/myriadpro-bold.ttf);
+}
+
+@font-face {
+    font-family: myriadpro-regular; /* Имя шрифта */
+    src: url(../fonts/myriadpro-regular.ttf);
+}
+
+@font-face {
+    font-family: myriadpro-semibold; /* Имя шрифта */
+    src: url(../fonts/myriadpro-semibold.ttf);
+}
+
+@font-face {
+    font-family: myriadpro-semiboldit; /* Имя шрифта */
+    src: url(../fonts/myriadpro-semiboldit.ttf);
+}
+
