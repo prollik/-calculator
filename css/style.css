@@ -313,6 +313,7 @@ form>button:hover{
     font-family: "myriadpro-semiboldit";
     font-size: 22px;
     color: black;
+    writing-mode: vertical-rl;
     /*-webkit-writing-mode: vertical-rl;*/
     /*-writing-mode: vertical-rl;*/
     /*-moz-writing-mode: vertical-rl;*/
@@ -420,11 +421,16 @@ form>button:hover{
     margin: auto 27px auto 28px;
 }
 
-.calculator__item-radio input{
+.calculator__item-radio>input{
     width: 21px;
     height: 21px;
     vertical-align: middle;
     margin: 0 9px 0 0;
+}
+#i1{
+    width: 21px;
+    height: 21px;
+
 }
 
 .calculator__item-radio label{
@@ -442,8 +448,13 @@ form>button:hover{
     font-family: "myriadpro-regular";
 }
 
+.calculator__select{
+    max-width: 358px;
+    display: block;
+}
+
 .jq-selectbox{
-    width: 358px;
+    width: 100%;
     margin-top: 24px;
 }
 
@@ -533,7 +544,6 @@ form>button:hover{
     background-color: #9da3d7;
     color: white;
     padding-top: 7px;
-
 }
 
 footer{
