@@ -41,8 +41,16 @@
 }
 
 @media (max-width: 724px) {
+    .header__content{
+        display: block;
+        padding-bottom: 55px;
+    }
+    .header__tel{
+        margin-top: 15px;
+        text-align: right;
+    }
     .header li>a {
-        font-size: 26px;
+        line-height: 1.25em;
     }
 }
 

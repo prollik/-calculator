@@ -48,7 +48,7 @@ header{
     font-family: "myriadpro-regular";
     color: #767676;
     line-height: 1.15;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.025px;
 }
 
 /*modal*/
@@ -153,7 +153,7 @@ form>button:hover{
 .slider__item-content{
     width: 707px;
     height: 303px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 13px 0px #000000;
     position: relative;
     margin: auto;
     border: 1px solid gray;
@@ -242,7 +242,7 @@ form>button:hover{
     line-height: 1.2;
     text-align: center;
     padding-bottom: 39px;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.025px;
 }
 
 /*slider_nav*/
